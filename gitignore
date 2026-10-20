@@ -1,0 +1,50 @@
+# Secrets and local credentials
+.env
+.env.*
+secrets/
+private/
+credentials/
+*password*.txt
+client.keys
+authd.pass
+internal_users.yml
+
+# Certificates and private keys
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+certs/
+wazuh-certificates/
+wazuh_indexer_ssl_certs/
+
+# Live Wazuh deployment and credential-bearing configuration
+wazuh-docker/
+docker-compose.yml
+docker-compose.yaml
+compose.yml
+compose.yaml
+
+# Virtual machine disks, memory, snapshots and installation images
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.vmsd
+*.vmx
+*.vmxf
+*.nvram
+*.iso
+*.lck/
+
+# Local backups and operating system files
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Review screenshots and documents manually before committing them.
+# Ignore rules do not remove files that are already tracked by Git.
